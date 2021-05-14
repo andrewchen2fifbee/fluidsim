@@ -1,0 +1,46 @@
+# ripped from some stackoverflow post
+# https://stackoverflow.com/questions/21573405/how-to-prepare-a-unity-project-for-git
+
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+Assets/AssetStoreTools*
+Build-WebGL/
+Build-Win64/
+Temp/*
+Obj/*
+UnityGenerated/*
+Library/*
+Build-WebGL/*
+Build-Win64/*
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+ExportedObj/*
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
